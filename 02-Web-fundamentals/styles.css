@@ -36,6 +36,8 @@ header h1 {
   background-color: white;
   color: midnightblue;
   box-shadow: 5px 5px 5px 5px lightgray;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
 }
 
 .card img {
@@ -53,7 +55,16 @@ h2, h3, h4, h5, h6 {
   list-style-type: none;
 }
 
+li:hover {
+  color: #1182EB;
+}
+
 span {
   font-size: 1.5em;
   color: #b48ce0;
+}
+
+.card:hover {
+  opacity: 1;
+
 }
